@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="Slide" customModule="MealsBooking" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="gOh-EP-Vma">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <view alpha="0.65000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jup-Ew-zhP">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meals Booking App !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sO1-7Z-WYJ">
+                            <rect key="frame" x="55" y="329" width="265" height="34.5"/>
+                            <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="25"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo-welcome" translatesAutoresizingMaskIntoConstraints="NO" id="lol-f7-aeF">
+                            <rect key="frame" x="105" y="83" width="173" height="173"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" text="Start looking for restaurants nowretrgrthgrthyetrhyetryretyertyretyret" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TXY-0D-h6G">
+                            <rect key="frame" x="15" y="382" width="345" height="19"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.27450980392156865" green="0.59215686274509804" blue="0.011764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="TXY-0D-h6G" firstAttribute="leading" secondItem="jup-Ew-zhP" secondAttribute="leading" constant="15" id="6aY-3C-Otb"/>
+                        <constraint firstItem="TXY-0D-h6G" firstAttribute="top" secondItem="sO1-7Z-WYJ" secondAttribute="bottom" constant="18.5" id="AVS-UC-hrA"/>
+                        <constraint firstAttribute="trailing" secondItem="sO1-7Z-WYJ" secondAttribute="trailing" constant="55" id="QjK-oM-73r"/>
+                        <constraint firstItem="sO1-7Z-WYJ" firstAttribute="leading" secondItem="jup-Ew-zhP" secondAttribute="leading" constant="55" id="SVV-vy-ox0"/>
+                        <constraint firstAttribute="trailing" secondItem="TXY-0D-h6G" secondAttribute="trailing" constant="15" id="n84-mD-x6C"/>
+                        <constraint firstAttribute="bottom" secondItem="TXY-0D-h6G" secondAttribute="bottom" constant="266" id="sqI-j1-Pf0"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.59999999999999998" green="0.792156862745098" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="gOh-EP-Vma" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="EbU-qC-8Yi"/>
+                <constraint firstItem="jup-Ew-zhP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="O8L-EW-klb"/>
+                <constraint firstItem="gOh-EP-Vma" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="b2o-AR-ysD"/>
+                <constraint firstItem="gOh-EP-Vma" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="dhr-xp-mww"/>
+                <constraint firstItem="gOh-EP-Vma" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="iVN-iy-x9D"/>
+                <constraint firstItem="jup-Ew-zhP" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="prM-rZ-lvu"/>
+                <constraint firstItem="jup-Ew-zhP" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="s1Y-1U-cLD"/>
+                <constraint firstItem="jup-Ew-zhP" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="seW-bg-95O"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="imageView" destination="lol-f7-aeF" id="hd9-6I-wjV"/>
+                <outlet property="labelDesc" destination="TXY-0D-h6G" id="Nat-KM-a1v"/>
+                <outlet property="labelTitle" destination="sO1-7Z-WYJ" id="9BJ-lh-mcn"/>
+            </connections>
+            <point key="canvasLocation" x="39.200000000000003" y="46.326836581709152"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="background" width="924" height="1392"/>
+        <image name="logo-welcome" width="500" height="500"/>
+    </resources>
+</document>
